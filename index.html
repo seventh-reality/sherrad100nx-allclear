@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three.js and OnirixSDK Example</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <audio autoplay>
+        <source src="assets/sounds/Background_Music.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+    <audio id="audioPlayer" preload="auto"></audio>
+
+    <div id="transform-controls">
+        <button id="tap-to-place">Place Model</button>
+    </div>   
+
+    <div id="back-button">
+        <button id="back"><img src="assets/images/Back.png" style="width:32.6px;height:37.8px;"></button>
+    </div>
+
+    <div id="errorimg">
+        <img id="back"><img src="assets/images/Game_over_close_button.png" style="width:225px;height:214px;"></img>
+    </div>
+
+    <div id="model-controls">
+        <button id="model1"><img src="assets/images/what.png" style="width:130px;height:40px; "></button>
+        <button id="model2"><img src="assets/images/why.png" style="width:130px;height:40px;"></button>
+    </div>
+
+    <div id="insidebuttons-controls">
+        <button id="ins1"><img src="assets/images/intro.png" style="width:72px;height:40px;"></button>
+        <button id="ins2"><img src="assets/images/parts.png" style="width:72px;height:40px;"></button>
+        <button id="ins3"><img src="assets/images/usage.png" style="width:72px;height:40px;"></button>
+    </div>
+
+    <div id="insidebuttons-controls1">
+        <button id="ins5"><img src="assets/images/usp2.png" style="width:72px;height:40px;"></button>
+        <button id="ins7"><img src="assets/images/usp1.png" style="width:72px;height:40px;"></button>
+        <button id="ins4"><img src="assets/images/usp1.png" style="width:72px;height:40px;"></button>
+        <button id="ins6"><img src="assets/images/usp3.png" style="width:72px;height:40px;"></button>
+    </div>
+
+    <div id="loading-screen">Loading...</div>
+
+    <div id="error-screen">
+        <div id="error-title"></div>
+        <div id="error-message"></div>
+    </div>
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
