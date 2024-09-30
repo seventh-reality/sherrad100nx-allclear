@@ -91,7 +91,6 @@ canvas {
   padding: 20px;
   bottom: 10px;
   justify-content: center;
-  display: flex;
   align-items: center;
   width: 100%;
 }
@@ -102,7 +101,6 @@ canvas {
   padding: 20px;
   bottom: 10px;
   justify-content: center;
-  display: flex;
   align-items: center;
   width: 100%;
 }
@@ -116,12 +114,10 @@ canvas {
 #back-button {
   display: none;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-165%, 250%);
-  padding: 20px;
-  margin: auto;
-  padding: 25px;
+  bottom: 80px;
+  justify-content: center;
+  width: 100%;
+  margin-left: -90px;
 }
 #errorimg {
   display: none;
@@ -137,9 +133,8 @@ canvas {
 #model-controls {
   display: none;
   position: absolute;
-  bottom: 80px;
+  bottom: 30px;
   justify-content: center;
-  display: flex;
   width: 100%;
 }
 
